@@ -1,0 +1,31 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Cookie&family=Ephesis&family=Lateef&family=Lato&display=swap");
+
+/* CSS Variables */
+:root {
+  /* Colors */
+  --primary-color: hsl(0, 0%, 0%);
+  --secondary-color: hsl(0, 0%, 100%, 100%);
+  --accent-color: hsl(38, 100%, 63%, 100%);
+  --card-color: hsl(0, 0%, 10%, 100%);
+
+  /* Fonts */
+  --body-font: Lateef, "sans-serif";
+  --title-font-1: Ephesis, "serif";
+  --title-font-2: Cookie, "serif";
+  --subtitle-font: Lato, "cursive";
+  --nav-font: Bitter, "serif";
+  --biggest-font-size: 3.125rem;
+  --h1-font-size: 2.25rem;
+  --subtitle-font-size: 1.75rem;
+  --normal-font-size: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 3.125rem;
+    --subtitle-font-size: 2.25rem;
+    --normal-font-size: 1rem;
+  }
+}
